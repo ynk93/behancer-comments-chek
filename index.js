@@ -79,7 +79,7 @@ async function serverInit() {
 
     });
 
-    server.listen(3000);
+    server.listen(3001);
 
 }
 
