@@ -35,7 +35,7 @@ async function checkComments(userUrl) {
         var localeString = commentComment.replace(/[^a-zA-Z]+/g, '');
 
         // user url compare check
-        if (commentUserUrl == userUrl) {
+        if (commentUserUrl.toLowerCase() == userUrl.toLowerCase()) {
             userCheck = true;
         }
 
